@@ -30,7 +30,7 @@ CREATE TABLE `epi_types` (
 CREATE TABLE `users` (
   `id` integer PRIMARY KEY,
   `created_at` timestamp,
-  `username` varchar(32),
+  `username` varchar(100),
   `password` varchar(255),
   `role` integer
 );
